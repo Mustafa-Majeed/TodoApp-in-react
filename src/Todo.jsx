@@ -31,6 +31,7 @@ function Todo() {
 
   return (
     <div className="cont">
+      <h1 style={{textAlign:"center",fontFamily:"sans-serif",fontSize:"3rem"}}>Write Your Todos</h1>
       <div className="Input">
       <input type="text" ref={inputRef} onKeyDown={handleKeyDown} />
       <button onClick={handleAddTodo}>Add Todo</button>
